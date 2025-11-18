@@ -1,4 +1,4 @@
-package io.github.hslee.saasbilling
+package io.github.hslee.saasbilling.api
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
