@@ -1,0 +1,12 @@
+springdoc:
+  api-docs:
+    path: /v1/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  group-configs:
+    - group: 고객
+      paths-to-match:
+        - /v1/customers/**
+    - group: 고객결제수단
+      paths-to-match:
+        - /v1/payment-method/**
